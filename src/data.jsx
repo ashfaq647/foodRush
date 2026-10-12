@@ -11,7 +11,7 @@ const foods = [
   },
   {
     id: 2,
-    name: "Cheese Burger",
+    name: "Cheese Burgerr",
     category: "Burger",
     price: 349,
     emoji: "🍔",
