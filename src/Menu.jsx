@@ -3,6 +3,8 @@ import FoodCard from "./FoodCard";
 import foods from "./data";
 
 function Menu({ onAddToCart }) {
+
+  //search Box
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("All");
 

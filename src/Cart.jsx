@@ -1,10 +1,8 @@
 import { Link } from "react-router-dom";
 
-function Cart({ cart, onDecrease, onRemove, onIncrease }) {
-  const subtotal = cart.reduce(
-    (total, item) => total + item.price * item.quantity,
-    0,
-  );
+function Cart({ cart, subtotal, onDecrease, onRemove, onIncrease }) {
+
+  
 
   const totalItems = cart.reduce((total, item) => total + item.quantity, 0);
 
@@ -44,7 +42,9 @@ function Cart({ cart, onDecrease, onRemove, onIncrease }) {
           <h1 className="text-4xl font-bold text-gray-900">Your Cart</h1>
 
           <p className="text-gray-500 mt-2">
+
             {totalItems} {totalItems === 1 ? "item" : "items"} in your cart
+
           </p>
         </div>
 

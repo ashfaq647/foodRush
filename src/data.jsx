@@ -11,13 +11,13 @@ const foods = [
   },
   {
     id: 2,
-    name: "Cheese Burgerr",
+    name: "Cheese Burgerrccvbcvbc",
     category: "Burger",
     price: 349,
     emoji: "🍔",
     rating: 4.7,
     isAvailable: true,
-    description: "Delicious burger loaded with cheese.",
+    description: "Delicious burger loaded with cheese gjhghjghj.",
   },
   {
     id: 3,
